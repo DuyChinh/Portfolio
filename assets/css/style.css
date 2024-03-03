@@ -150,7 +150,7 @@ section .title::after{
     content: '';
     height: 2px;
     width: 0;
-    background: #e65245;
+    background: #93F9B9;
     transition: width 0.5s linear;
 }
 
@@ -168,7 +168,7 @@ section .title::after{
 }
 .navbar .menu li a:hover{
     /* color: crimson; */
-    color: #e65245;
+    color: #1D976C;
     cursor: pointer;
 }
 .navbar.sticky .menu li a:hover{
