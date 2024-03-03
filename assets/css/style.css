@@ -48,6 +48,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
+
 .about, .services, .skills, .projects, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
@@ -131,6 +132,11 @@ section .title::after{
 .navbar.sticky .logo a span{
     color: #fff;
 }
+
+.navbar .menu {
+    margin-bottom: 0;
+}
+
 .navbar .menu li{
     position: relative;
     list-style: none;
