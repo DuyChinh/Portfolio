@@ -28,9 +28,16 @@ $(document).ready(function(){
     });
 
     // toggle menu/navbar script
-    $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
-        $('.menu-btn i').toggleClass("active");
+    $('.menu-btn-icon').click(function(){
+        $('.navbar .menu').addClass("active");
+    });
+
+    $(".menu .exit").click(function () {
+      $(".navbar .menu").removeClass("active");
+    });
+
+    $(".navbar .menu-btn").click(function () {
+      $(".navbar .menu").removeClass("active");
     });
 
     // typing text animation script
@@ -74,15 +81,15 @@ $(document).ready(function(){
         responsive: {
             0:{
                 items: 1,
-                nav: false
+                // nav: false
             },
             600:{
                 items: 2,
-                nav: false
+                // nav: false
             },
             1000:{
                 items: 3,
-                nav: false
+                // nav: false
             }
         }
     });
