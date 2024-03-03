@@ -373,6 +373,15 @@ section .title::after{
     content: "what i provide";
 }
 
+.projects .project-name {
+    font-size: 20px;
+    margin-bottom: 0
+}
+
+.projects .project-tech {
+    font-size: 14px;
+}
+
 .container
 {
     display: flex;
