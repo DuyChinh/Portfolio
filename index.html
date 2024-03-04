@@ -219,7 +219,6 @@
               <p>Deep Computer is an institution project .</p>
               <a href="https://mind-map-seven.vercel.app/" class="project" target="_blank">View Project</a>
               <a href="https://github.com/DuyChinh/MindMap" class="project" target="_blank">View Code</a>
-              
             </div>
           </div>
           <div class="card">
@@ -360,5 +359,13 @@
   window.addEventListener("load", function() {
     loader.style.display = "none";
   })
+</script>
+<script>
+  let toggle = false;
+  const cardInner = document.querySelector(".box-inner");
+  cardInner.addEventListener("click", () => {
+    toggle = !toggle;
+    toggle ? cardInner.classList.add("show") : cardInner.classList.remove("show");
+  });
 </script>
 <script src="./assets/js/main.js"></script>

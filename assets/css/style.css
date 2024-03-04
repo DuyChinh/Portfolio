@@ -137,6 +137,10 @@ section .title::after{
     margin-bottom: 0;
 }
 
+.navbar .menu-btn-icon {
+    display: none;
+}
+
 .navbar .menu li{
     position: relative;
     list-style: none;
@@ -1180,6 +1184,9 @@ footer .wave#wave4
     z-index: 1000;
     /* border-radius: 12px; */
 }
+
+
+
 /* responsive media query start */
 
 @media screen and (min-width: 250px) and (max-width: 420px) {
@@ -1192,6 +1199,10 @@ footer .wave#wave4
         position: absolute;
         right: 20px;
         top: 20px;
+    }
+
+    .navbar .menu-btn-icon {
+        display: block;
     }
 
     .logo span {
@@ -1350,6 +1361,10 @@ footer .wave#wave4
         display: block;
     }
 
+    .navbar .menu-btn-icon {
+        display: block;
+    }
+
     .menu .exit {
         display: block;
         position: absolute;
@@ -1458,6 +1473,10 @@ footer .wave#wave4
         display: none;
     }
     .menu-btn {
+        display: block;
+    }
+
+    .navbar .menu-btn-icon {
         display: block;
     }
 
