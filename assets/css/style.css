@@ -812,7 +812,16 @@ section .title::after{
 .skills-content .right .js::before{
     width: 80%;
 }
+.skills-content .right .python::before{
+    width: 70%;
+}
 .skills-content .right .reactjs::before{
+    width: 80%;
+}
+.skills-content .right .vuejs::before{
+    width: 80%;
+}
+.skills-content .right .fastapi::before{
     width: 80%;
 }
 .skills-content .right .nextjs::before{
@@ -1140,6 +1149,7 @@ footer .wave#wave3
     bottom:15px;
     animation: animatewave 3s linear infinite;
 }
+
 footer .wave#wave4
 {
     z-index: 999;
